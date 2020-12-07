@@ -43,7 +43,7 @@ public class MailServiceTest {
     @Test
     public void sendAttachmentMailTest() {
         String filePath = "/Users/wangbingshuai/package/java相关安装包/redis-5.0.5.tar.gz";
-        mailService.sendAttachmentMail("发件人", "2562879274@qq.com", "带附件的邮件", "有附件，请查收", filePath);
+        mailService.sendAttachmentMail("发件人", "*********@qq.com", "带附件的邮件", "有附件，请查收", filePath);
     }
 
     @Test
